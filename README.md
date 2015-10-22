@@ -1,2 +1,2 @@
-# SHINY JS
-A simple, lightweight web app framework
+# Fantasy reference
+A simple view of top players per team using shinyjs
