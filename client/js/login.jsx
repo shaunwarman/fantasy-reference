@@ -2,7 +2,7 @@
 
 var React = require('react');
 
- var HelloWorld = React.createClass({
+ var Login = React.createClass({
     
     getInitialState: function () {
         return {
@@ -36,7 +36,7 @@ var React = require('react');
             processData: false,
             timeout: 5000,
             complete: function (response) {
-                this.setState({ response: response });
+                window.location = '/home';
             }
         });
     },
@@ -60,4 +60,4 @@ var React = require('react');
     }
 });
 
-module.exports = HelloWorld;
+module.exports = Login;
