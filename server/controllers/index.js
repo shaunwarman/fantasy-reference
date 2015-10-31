@@ -6,7 +6,11 @@ var express = require('express'),
 var couchbaseClient = require('../lib/couchbaseClient');
 
 router.get('/', function (req, res) {
-    res.render('Master');
+    res.render('master');
+});
+
+router.get('/home', function (req, res) {
+    res.render('master');
 });
 
 router.post('/user', function (req, res) {
@@ -17,7 +21,7 @@ router.post('/user', function (req, res) {
             res.send('Error adding user!');
             return;
         }
-        res.send('User successfully added!');
+        res.redirect('/home');
     });
 });
 

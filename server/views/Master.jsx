@@ -1,8 +1,6 @@
-'use strict';
-
 import React from 'react';
 
-export default class Master extends React.Component {
+export default class master extends React.Component {
     
     render() {
         return (
@@ -13,9 +11,9 @@ export default class Master extends React.Component {
                     <link rel="stylesheet" type="text/css" href="app.css" />
                 </head>
                 <body>
-                <div className="container">
-                    <div id="content"></div>
-                </div>
+                    <div className="container">
+                        <div id="content"></div>
+                    </div>
                 </body>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
                 <script src="app.js"></script>
