@@ -56,3 +56,12 @@
 .stat-row {
     width: 100%;
 }
+
+.player-totals {
+    padding-top: 5px;
+}
+
+.player-totals th, td {
+    padding: 0 8px;
+    font-size: 10px;
+}
