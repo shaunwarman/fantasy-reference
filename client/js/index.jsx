@@ -9,9 +9,7 @@ import Login from './login';
 
 render(
     <Router history={createBrowserHistory()}>
-        <Route path="/" component={Login}>
-        </Route>
-        <Route path="/home" component={Home}>
-        </Route>
+        <Route path="/" component={Login} />
+        <Route path="/home" component={Home} />
     </Router>, document.getElementById('content')
 );

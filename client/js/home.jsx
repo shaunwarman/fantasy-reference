@@ -70,7 +70,7 @@ var Home = React.createClass({
                     YDS: 287,
                     TD: 5
                 }
-            }],
+            }]
         }
     },
     
