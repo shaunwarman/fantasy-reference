@@ -84,9 +84,7 @@ var Home = React.createClass({
 
     render: function () {
         return (
-            <Players 
-                players={this.state.players} 
-                />
+            <Players players={this.state.players} />
         );
     }
 });
