@@ -1,24 +1,15 @@
 'use strict';
 
 var React = require('react');
+var Profile = require('./profile');
 
 var Player = React.createClass({
 
     render: function () {
-        var imageUrl = 'url(\'' + this.props.stats.image + '\')';
-        var imageStyle = {
-            width: '84%',
-            height: '100px',
-            backgroundImage: imageUrl,
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: '160px 100px',
-            margin: '10px auto',
-            backgroundColor: '#000000'
-        };
 
         return (
             <div id='player-panel'>
-                <div className="profile-image" style={imageStyle}></div>
+                <Profile image={this.props.stats.image} />
                 <div className="stat-row">
                     <span className="bold">Name: </span>{this.props.stats.name}
                 </div>
