@@ -20,16 +20,13 @@ var Player = React.createClass({
             <div id='player-panel'>
                 <div className="profile-image" style={imageStyle}></div>
                 <div className="stat-row">
-                    Name: {this.props.stats.name}
+                    <span className="bold">Name: </span>{this.props.stats.name}
                 </div>
                 <div className="stat-row">
-                    Team: {this.props.stats.team}
+                    <span className="bold">Team: </span>{this.props.stats.team}
                 </div>
                 <div className="stat-row">
-                    Position: {this.props.stats.position}
-                </div>
-                <div className="stat-row">
-                    College: {this.props.stats.college}
+                    <span className="bold">Position: </span>{this.props.stats.position}
                 </div>
             </div>
         );
