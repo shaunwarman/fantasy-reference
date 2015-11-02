@@ -1,7 +1,7 @@
 'use strict';
 
 var React = require('react');
-var Player = require('./Player');
+var Player = require('./player');
 
 var Players = React.createClass({
     
