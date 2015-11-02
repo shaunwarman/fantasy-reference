@@ -49,15 +49,6 @@
     float: left;
 }
 
-.profile-image {
-    width: 50%;
-    height: 100px;
-    background-image: url('http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/112.png&w=350&h=254');
-    background-repeat: no-repeat;
-    background-size: 100px 100px;
-    margin: auto;
-}
-
 .stat-row {
     width: 80%;
 }

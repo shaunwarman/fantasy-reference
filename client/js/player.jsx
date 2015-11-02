@@ -12,12 +12,13 @@ var Player = React.createClass({
             backgroundImage: imageUrl,
             backgroundRepeat: 'no-repeat',
             backgroundSize: '160px 100px',
-            margin: 'auto'
+            margin: '10px auto',
+            backgroundColor: '#000000'
         };
 
         return (
             <div id='player-panel'>
-                <div style={imageStyle}></div>
+                <div className="profile-image" style={imageStyle}></div>
                 <div className="stat-row">
                     Name: {this.props.stats.name}
                 </div>
