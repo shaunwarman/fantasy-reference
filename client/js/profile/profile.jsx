@@ -12,7 +12,7 @@ var Profile = React.createClass({
             backgroundImage: imageUrl,
             backgroundRepeat: 'no-repeat',
             backgroundSize: '160px 100px',
-            margin: '10px auto',
+            margin: '30px auto 10px auto',
             backgroundColor: '#000000'
         };
 
