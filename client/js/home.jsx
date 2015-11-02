@@ -20,7 +20,13 @@ var Home = React.createClass({
                     opposition: "Carolina Panthers",
                     touchdowns: 3,
                     yards: 315
-                }]
+                }],
+                totals: {
+                    TGTS: 40,
+                    REC: 27,
+                    YDS: 315,
+                    TD: 4
+                }
             },
             {
                 name: "Brett Favre",
@@ -35,7 +41,14 @@ var Home = React.createClass({
                     opposition: "Arizona Cardinals",
                     touchdowns: 3,
                     yards: 315
-                }]
+                }],
+                totals: {
+                    COMP: 124,
+                    ATT: 170,
+                    YDS: 1042,
+                    TD: 12,
+                    INT: 3
+                }
             },
             {
                 name: "Rob Gronkowski",
@@ -50,7 +63,13 @@ var Home = React.createClass({
                     opposition: "Arizona Cardinals",
                     touchdowns: 3,
                     yards: 315
-                }]
+                }],
+                totals: {
+                    TGTS: 37,
+                    REC: 27,
+                    YDS: 287,
+                    TD: 5
+                }
             }],
         }
     },
