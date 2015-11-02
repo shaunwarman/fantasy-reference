@@ -26,7 +26,38 @@
     display: block;
 }
 
-#content {
+#user-form {
     width: 400px;
     margin: 100px auto;
+}
+
+#players-view {
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+#player-panel {
+    width: 200px;
+    height: 95vh;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #888888;
+    border-radius: 3px;
+    padding: 5px;
+    margin-right: 10px;
+    float: left;
+}
+
+.profile-image {
+    width: 50%;
+    height: 100px;
+    background-image: url('http://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/112.png&w=350&h=254');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    margin: auto;
+}
+
+.stat-row {
+    width: 80%;
 }
