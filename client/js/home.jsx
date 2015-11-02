@@ -74,17 +74,18 @@ var Home = React.createClass({
         }
     },
     
-    addPlayer: function (name) {
-        
+    addPlayer: function (event) {
+        console.log(event)
     },
     
-    removePlayer: function () {
-        
+    removePlayer: function (position) {
+        this.state.players.splice(position, 1);
+        this.setState({ players: this.state.players });
     },
 
     render: function () {
         return (
-            <Players players={this.state.players} />
+            <Players players={this.state.players} add={this.addPlayer} remove={this.removePlayer} />
         );
     }
 });
