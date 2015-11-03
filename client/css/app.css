@@ -26,6 +26,27 @@
     display: block;
 }
 
+.cushion-bottom {
+    margin-bottom: 10px;
+}
+
+.main-view {
+    padding: 40px 20px;
+}
+
+.search-bar {
+    float: right;
+}
+
+#add-player {
+    width: 100px;
+}
+
+#player-search {
+    margin-right: 10px;
+    width: 250px;
+}
+
 #user-form {
     width: 400px;
     margin: 100px auto;
