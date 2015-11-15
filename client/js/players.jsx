@@ -10,8 +10,7 @@ var Players = React.createClass({
         
         if (players) {
             players.forEach(function (element, index) {
-                playerPanels.push(<Player stats={element} add={this.props.add} remove={this.props.remove}
-                                          position={index} key={index+1}/>);
+                playerPanels.push(<Player stats={element} add={this.props.add} remove={this.props.remove} position={index} key={index+1}/>);
             }.bind(this));
         }
         
